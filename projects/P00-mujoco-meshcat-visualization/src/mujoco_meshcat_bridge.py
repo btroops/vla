@@ -9,7 +9,7 @@
     - 每帧读取 data.geom_xpos / geom_xmat，转换后同步到 meshcat
     - 浏览器里可鼠标拖拽旋转、滚轮缩放
 
-关键坑（详见 notes/2026-11-23-wsl2-mujoco可视化方案.md）:
+关键坑（详见 ../notes.md，以及仓库 notes/2026-11-23-wsl2-mujoco可视化方案.md）:
     - WSL2 下 mujoco.viewer 开窗会崩，所以走 meshcat 浏览器方案
     - geom_xmat 初始化时全零，必须先 mj_step 一次
     - MuJoCo 是 z-up，Three.js 是 y-up，需要坐标变换
