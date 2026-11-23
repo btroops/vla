@@ -1,0 +1,126 @@
+# ---------- 操作系统 ----------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ---------- 编辑器 / IDE ----------
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+.vim/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# 测试与类型检查缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---------- 机器学习 / 实验产物 ----------
+runs/
+outputs/
+output/
+logs/
+wandb/
+mlruns/
+checkpoints/
+ckpt/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.h5
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.tfevents.*
+
+# ---------- 机器人 / 仿真产物 ----------
+*.mjcf.bak
+*.urdf.bak
+*.mjb
+*.mjbx
+*.bin
+*.stl.bak
+bagfiles/
+*.bag
+*.db3
+*.mcap
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+colcon_ws/build/
+colcon_ws/install/
+colcon_ws/log/
+
+# ---------- 数据集 / 大文件（不要进 git，用 git-lfs 或外链） ----------
+data/
+datasets/
+assets/data/
+raw/
+*.hdf5
+*.h5
+*.zarr
+*.mp4
+*.avi
+*.mov
+!docs/**/*.mp4
+
+# ---------- 密钥 / 本机配置 ----------
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+config.local.*
+
+# ---------- 临时文件 ----------
+tmp/
+temp/
+*.tmp
+*.log
