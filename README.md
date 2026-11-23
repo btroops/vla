@@ -108,6 +108,7 @@ graph TD
 
 | 目录 | 用途 |
 |------|------|
+| [plan/](./plan/2026-11-23-路线A-12周计划.md) | 我的学习计划与排期（12 周表 + 每周验收标准） |
 | [papers/](./papers/README.md) | 论文三遍读法、分级论文清单、[论文笔记模板](./papers/论文笔记模板.md) |
 | [projects/](./projects/README.md) | 15+ 个 ⭐~⭐⭐⭐⭐⭐ 练手项目，含验收标准 |
 | [resources/](./resources/资源清单.md) | 教材、公开课、官方文档、数据集、社区 |
